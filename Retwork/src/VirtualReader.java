@@ -67,6 +67,8 @@ class VirtualReader {
 //        EPCResult.removeAll(ErrorResult);
         return !EPCResult.isEmpty();
     }
+
+    // Inventory tags
     public void query()throws AlienReaderException{
 //        for(int iii = 0;iii<3;iii++){
         int maskLength = 2;

@@ -8,7 +8,7 @@ import java.util.Set;
 
 public class Retwork extends AlienUtil {
     static int[][] graph;   /*record Retwork result*/
-    static int[][] graph2; /*record ground truth*/
+    static int[][] graph2; /*record groundtruth*/
 
     /*
      * The topology is obtained through Retwork.
@@ -20,11 +20,11 @@ public class Retwork extends AlienUtil {
                 // select two readers
                 VirtualReader reader1 = readers.get(i);
                 VirtualReader reader2 = readers.get(j);
-                // one sets its tags to B
+                // One sets its tags to B
                 reader1.setSession("BA");
-                // the other sets its tags to A
+                // The other sets its tags to A
                 reader2.setSession("AB");
-                // the first reader checks A tags within its coverage.
+                // The first reader checks A tags within its coverage.
                 // If it finds a tag reply, that means there is an edge
                 // between the two readers.
                 if (reader1.detectCollision("AB")) {
@@ -37,7 +37,7 @@ public class Retwork extends AlienUtil {
     }
 
     /*
-    * The ground truth is obtained through inventory.
+    * The groundtruth is obtained through inventory.
     */
     public static int[][] getGroundTruth(ArrayList<VirtualReader> readers) throws AlienReaderException {
         int[][] groundTruth = new int[readers.size()][readers.size()];
@@ -132,7 +132,7 @@ public class Retwork extends AlienUtil {
             if (!file.exists() && !file.isDirectory()) {
                 file.mkdir();
             }
-            // write result to file
+            // write results to file
             String result = tagAll.size() + " " + cost1 + " " + cost  + " " + all + " " + fn + " " + fp+"\n";
             writeFile(result, path + "result4" + "");
     }

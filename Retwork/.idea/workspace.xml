@@ -12,23 +12,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="VirtualReader.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="VirtualReader.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/VirtualReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="1197">
+              <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Retwork.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Retwork.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Retwork.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
-              <folding>
-                <element signature="method#getGroundTruth#0;class#Retwork#0" />
-              </folding>
+            <state relative-caret-position="1197">
+              <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -50,7 +47,7 @@
       <file leaf-file-name="RedundantDetection.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RedundantDetection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-483">
+            <state relative-caret-position="84">
               <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -86,8 +83,8 @@
         <option value="$PROJECT_DIR$/src/AlienUtil.java" />
         <option value="$PROJECT_DIR$/src/RedundantDetection.java" />
         <option value="$PROJECT_DIR$/src/ColorWave.java" />
-        <option value="$PROJECT_DIR$/src/VirtualReader.java" />
         <option value="$PROJECT_DIR$/src/Retwork.java" />
+        <option value="$PROJECT_DIR$/src/VirtualReader.java" />
       </list>
     </option>
   </component>
@@ -267,9 +264,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="13" selection-start-line="13" selection-end-line="14" />
-          <folding>
-            <element signature="method#getGroundTruth#0;class#Retwork#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -313,9 +307,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
           <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
-          <folding>
-            <element signature="method#getGroundTruth#0;class#Retwork#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -359,9 +350,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
           <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
-          <folding>
-            <element signature="method#getGroundTruth#0;class#Retwork#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -405,9 +393,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
           <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
-          <folding>
-            <element signature="method#getGroundTruth#0;class#Retwork#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -451,9 +436,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="method#getGroundTruth#0;class#Retwork#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -480,20 +462,6 @@
     <entry file="file://$PROJECT_DIR$/src/ReadTags.java" />
     <entry file="file://$PROJECT_DIR$/src/TagStreamTest.java" />
     <entry file="file://$PROJECT_DIR$/src/Kcoverage.java" />
-    <entry file="file://$PROJECT_DIR$/src/AlienUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/VirtualReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ColorWave.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -506,9 +474,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/AlienUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/RedundantDetection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-483">
+        <state relative-caret-position="84">
           <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -518,11 +493,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Retwork.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
-          <folding>
-            <element signature="method#getGroundTruth#0;class#Retwork#0" />
-          </folding>
+        <state relative-caret-position="1197">
+          <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VirtualReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1197">
+          <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
         </state>
       </provider>
     </entry>
