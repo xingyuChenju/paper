@@ -24,7 +24,7 @@ public class Retwork extends AlienUtil {
                 reader1.setSession("BA");
                 // the other sets its tags to A
                 reader2.setSession("AB");
-                // the first reader check A tags within its coverage.
+                // the first reader checks A tags within its coverage.
                 // If it finds a tag reply, that means there is an edge
                 // between the two readers.
                 if (reader1.detectCollision("AB")) {
