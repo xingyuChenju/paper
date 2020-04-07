@@ -50,12 +50,9 @@ public class Retwork extends AlienUtil {
                 Set<String> set = new HashSet<>();
                 set.addAll(reader1.getTagsEPC());
                 set.retainAll(reader2.getTagsEPC());
-                if (set.size() > 20) {
+                if (set.size() > 0) {
                     groundTruth[i][j] = 1;
                     groundTruth[j][i] = 1;
-                }else if (set.size() > 0) {
-                    groundTruth[i][j] = -1;
-                    groundTruth[j][i] = -1;
                 }
             }
         }
