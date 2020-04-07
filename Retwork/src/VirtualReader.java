@@ -8,7 +8,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- *  basic functions of Retwork
+ *  Basic functions of Retwork
  * */
 class VirtualReader {
     private AlienClass1Reader reader;

@@ -11,7 +11,7 @@ public class Retwork extends AlienUtil {
     static int[][] graph2; /*record ground truth*/
 
     /*
-     * The Topology is obtained through Retwork.
+     * The topology is obtained through Retwork.
      */
     public static int[][] getTopology(ArrayList<VirtualReader> readers) throws AlienReaderException {
         int[][] topologyGraph = new int[readers.size()][readers.size()];
@@ -20,9 +20,9 @@ public class Retwork extends AlienUtil {
                 // select two readers
                 VirtualReader reader1 = readers.get(i);
                 VirtualReader reader2 = readers.get(j);
-                // one set its tags to B
+                // one sets its tags to B
                 reader1.setSession("BA");
-                // the other set its tags to A
+                // the other sets its tags to A
                 reader2.setSession("AB");
                 // the first reader check A tags within its coverage.
                 // If it finds a tag reply, that means there is an edge
@@ -67,7 +67,7 @@ public class Retwork extends AlienUtil {
             long b;
             long cost;
             long cost1;
-            // these variables are used to validate correctness of Retwork's result
+            // these variables are used to validate the correctness
             int fn = 0;
             int fp = 0;
             int all = 0;
@@ -116,17 +116,17 @@ public class Retwork extends AlienUtil {
                     all++;
                 }
             }
-            // print result
+            // print results
             Set<String> tagAll = new HashSet<>();
             for (VirtualReader reader : readerlist) {
                 System.out.println(reader.getTagsEPC().size());
                 tagAll.addAll(reader.getTagsEPC());
             }
-            // all cases
+            // number of all cases
             System.out.println("all : " + all);
-            // false negative cases
+            // print the number of false negative cases
             System.out.println("fn : " + fn);
-            // false negative cases
+            // print the number of false positive cases
             System.out.println("fp : " + fp);
             File file = new File(path);
             if (!file.exists() && !file.isDirectory()) {
