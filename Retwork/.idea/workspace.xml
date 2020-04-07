@@ -12,7 +12,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="VirtualReader.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="VirtualReader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/VirtualReader.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1197">
@@ -56,7 +56,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AlienUtil.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AlienUtil.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AlienUtil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="861">
@@ -474,13 +474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AlienUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/RedundantDetection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -502,6 +495,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1197">
           <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AlienUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
         </state>
       </provider>
     </entry>
